@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('./Montserrat/static/Montserrat-Regular.ttf');
+}
+
+body{
+  font-family:'montserrat' ;
+}
+
+.center-align{
+margin: 0 auto;
+text-align: center;
+}
+
+.monarchs-title{
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+
+.monarchs-title {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+.nav-scroller{
+  /* width: 900px;
+  margin: 0 auto; */
+}
+
+.nav-scroller .nav {
+  /* display: flex;
+  flex-wrap: nowrap;
+  /* padding: 1rem; */
+  /* margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap; 
+  -webkit-overflow-scrolling: touch; 
+    justify-content: space-around!important; */
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin-top: 5px;
+}
+
+.menu-items a{
+   text-decoration: none;
+}
+
+.wallet-button{
+  border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: white;
+    width: 84%;
+    height: 48px;
+ 
+}
+
+.cards-padding{
+  padding: 50px 50px 50px 100px;
+}
+
+.card{
+  border: none;
+  width: 74%;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.radiant-image{
+  background-image: url("./bg-red-gradient.png");
+  color: white;
+  background-repeat: round;
+}
+
+.gamble-text{
+  margin-top: 65px;
+  font-style: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+.gamble-explanation{
+  line-height: 2;
+  margin: 135px;
+  text-align: justify;
+}
+
+
+.exp-left{
+  margin-left: 41px;
+  margin-top: 50px;
+}
+
+.exp-right{
+  margin-right: 41px;
+  margin-top: 50px;
+}
+
+.img-art{
+  width: 92%;
+}
+
+.footer{
+  background-image: url('./footer-bg.png');
+  color: white;
+}
+
+.margin-top-zero{
+  margin-top: 0px;
+}
+
+.socialIcon{
+  margin-right: 4%;
+}
+
+
+/* first page */
+
+.main-page{
+  background-image: url('./main-bg.png');
+  background-position-x: center;
+    background-size: cover;
+    height: 760px;
+   color: white;
+}
+
+.title-img{
+  width: 60%;
+  margin-top: 18%;
+}
+
+.next-button{
+width: 60px;
+height: 60px;
+margin-top:15%;
+cursor: pointer;
+}
+
+.give-away{
+  font-weight: bold;
+  text-decoration: underline;
+}
