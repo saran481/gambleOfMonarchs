@@ -77,10 +77,19 @@ text-align: center;
   background-repeat: round;
 }
 
+.extra-bold{
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+}
+
+.copy-right-text{
+  text-align: center;
+  padding: 20px;
+}
+
 .gamble-text{
   margin-top: 65px;
   font-style: normal;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 35px;
     text-align: center;
 }
@@ -124,10 +133,10 @@ text-align: center;
 /* first page */
 
 .main-page{
-  background-image: url('./main-bg.png');
+  background-image: url('./main-bg.jpeg');
   background-position-x: center;
     background-size: cover;
-    height: 760px;
+    height: 100vh;
    color: white;
 }
 
