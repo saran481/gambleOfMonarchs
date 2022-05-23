@@ -114,6 +114,7 @@ text-align: center;
 
 .img-art{
   width: 92%;
+  border-radius: 20px;
 }
 
 .footer{
@@ -142,13 +143,13 @@ text-align: center;
 
 .title-img{
   width: 60%;
-  margin-top: 18%;
+  margin-top: 21.5%;
 }
 
 .next-button{
 width: 60px;
 height: 60px;
-margin-top:15%;
+margin-top:11%;
 cursor: pointer;
 }
 
