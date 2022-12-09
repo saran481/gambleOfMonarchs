@@ -1,188 +1,274 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-     <!-- Bootstrap core CSS -->
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet"> 
-    <!-- Custom styles for this template -->
-    <link href="index.css" rel="stylesheet">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
-    <title>Gamble of Monarchs</title>
-  </head>
-  <body>
-    <div class="first-page">
-      <div class="main-page">
-        <!-- <img class="img-fluid" src="./main-bg.png"/> -->
-         <div class="title center-align">
-           <img class="img-fluid title-img" src="./title.png" />
-         </div>
-       <div class="img-fluid title next-button center-align">
-         <img src="./next-button.png" class="img-fluid"/>
-         <!-- <div class="next-icon">></div> -->
-       </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="index.css" rel="stylesheet">
+
+  <title>Gamble of Monarchs</title>
+</head>
+
+<body>
+  <div class="first-page">
+    <div class="main-page">
+      <!-- <img class="img-fluid" src="./main-bg.png"/> -->
+      <div class="title center-align">
+        <img class="img-fluid title-img" src="./title.png" />
       </div>
- </div>
-    <div class="container-fluid" style="display: none;"> 
-    <div class="second-page" >
+      <div class="img-fluid title next-button center-align">
+        <img src="./next-button.png" class="img-fluid" />
+        <!-- <div class="next-icon">></div> -->
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" style="display: none;">
+    <div class="second-page">
 
-  
-     <header class="py-5">
-      <div class="row">
-        <div class="title center-align">
-         <img src="./title2.png" style="width: 38.8%"/>
+
+      <header class="py-5">
+        <div class="row">
+          <div class="title center-align">
+            <img src="./title2.png" style="width: 38.8%" />
+          </div>
         </div>
-      </div>
-    </header> 
+      </header>
       <div class="row">
         <div class="col-md-3"></div>
         <div class="col-md-6">
-        <div class="nav-scroller">
-          <nav class="nav d-flex justify-content-between menu-items">
-            <a class="p-2 link-secondary" href="#">Info</a>
-            <a class="p-2 link-secondary" href="#">The Story</a>
-            <a class="p-2 link-secondary" href="#">The Art</a>
-            <a class="p-2 link-secondary" href="#">Contact</a>
-          </nav>
-          
+          <div class="nav-scroller">
+            <nav class="nav d-flex justify-content-between menu-items">
+              <!-- <a class="p-2 link-secondary" href="#">Info</a> -->
+              <a class="p-2 link-secondary" href="#">The Story</a>
+              <a class="p-2 link-secondary" href="#">The Art</a>
+              <a class="p-2 link-secondary" href="#">Contact</a>
+            </nav>
+
+          </div>
         </div>
-      </div>
-      <div class="col-md-2">
-        <button class="wallet-button" style="display: none;">Connect Wallet</button>
+        <div class="col-md-2">
+          <button class="wallet-button" style="display: none;">Connect Wallet</button>
         </div>
       </div>
       <div class="row cards-padding">
         <div class="col-md-3">
-          <div class="card" >
-            <img src="./spades.png" class="img-fluid card-img-top" alt="...">
+          <div class="card">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./spades.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+                <div class="flip-card-back">
+                  <img src="./website_spade.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">CANTON OF SPADES</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card" >
-            <img src="./hearts.png" class=" img-fluid card-img-top" alt="...">
+          <div class="card">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./hearts.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+                <div class="flip-card-back">
+                  <img src="./website_hearts.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">BASTION OF HEARTS</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card" >
-            <img src="./club.png" class=" img-fluid card-img-top" alt="...">
+          <div class="card">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./club.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+                <div class="flip-card-back">
+                  <img src="./website_clubs.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">CLUB CITADEL</p>
             </div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="card" >
-            <img src="./diamond.png" class="img-fluid card-img-top" alt="...">
+          <div class="card">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="./diamond.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+                <div class="flip-card-back">
+                  <img src="./website_diamond.png" alt="Avatar" class="img-fluid card-img-top">
+                </div>
+              </div>
+            </div>
             <div class="card-body">
               <p class="card-text">DIAMOND CASTLE</p>
             </div>
           </div>
         </div>
-       
+
       </div>
       <div class="row">
-         <div class="col-md-12 radiant-image">
-             <div class="row">
-               <div class="col-md-12">
-              <p class="gamble-text"><b class="extra-bold">The gamble</b>  between 
-                <b class="extra-bold">Monarchs</b> <br/> for the <b class="extra-bold">Blue Throne</b> </p>   
-               
-               </div>
-                
-             </div>
-             <div class="row">
+        <div class="col-md-12 radiant-image">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="gamble-text"><b class="extra-bold">The gamble</b> between
+                <b class="extra-bold">Monarchs</b> <br /> for the <b class="extra-bold">Blue Throne</b>
+              </p>
 
-               <div class="col-md-6">
-               <p class="gamble-explanation exp-right">
-                On the Islands of Dead Sea, there are four realms headed by four powerful Monarchs, The Spade King, The Diamond King, The Heart King and The Club King. Each of them is notorious and power mongering aspiring to expand their empire. Each Monarch wields a unique power and strategy to defeat the opponent. They possess mighty armies and ammunitions in their arsenals that could destroy the enemies into ashes.<br/> <br/>
-                For several years, each of these Monarchs has been trying to conquer the empire of the other three, and thus establish their domination on the land and water in the region. Each conspired against each other leading to several conflicts and bloodshed. Dramatically, all the four royals have allegiance to The Clown who guided the royal dynasties from during the turbulent times. Vowing to the promise made to the Clown, the four Monarchs had refrained from indulging in a destructive war against others. <br/> <br/>
-                Nevertheless, the Clown decided to reveal the secret to the Four Monarchs that was passed to him by his ancestors to reveal it to the
-              </p>   
-              </div>
-               <div class="col-md-6">
-                 <p class="gamble-explanation exp-left">
-                descendants of royalists under the right circumstances. On the far Islands of Dead Sea, there’s an ancient Imperial Kingdom that remains in shackles. There’s a throne in the capital of that Imperial Kingdom which possess supernatural powers, that it confers on its ascendants. The man who ascends it becomes the most powerful Man - in the military, wealth- on this part of the world. Nobody could ever defeat him and he attains immortality. The more battles he won, the more powerful he grows and more worlds he conquers.<br/> <br/>
-                <b><i>“Now The reason why I am revealing this to all of you is, the throne has been craving for a sovereign to mount it, and its cravings have become aggressive that it would destroy our entire world had its cravings are not satiated. The one who ascends it becomes the Imperial Monarch, rest would turn into vassals to the Imperial Monarch,”</i></b> said the Clown to the four Kings. This had triggered a competition and rivalry among the Kings to ascend the throne.<br/> <br/>
+            </div>
+
+          </div>
+          <div class="row">
+
+            <div class="col-md-6">
+              <p class="gamble-explanation exp-right">
+                On the Islands of Dead Sea, there are four realms headed by four powerful Monarchs, The Spade King, The
+                Diamond King, The Heart King and The Club King. Each of them is notorious and power mongering aspiring
+                to expand their empire. Each Monarch wields a unique power and strategy to defeat the opponent. They
+                possess mighty armies and ammunitions in their arsenals that could destroy the enemies into ashes.<br />
+                <br />
+                For several years, each of these Monarchs has been trying to conquer the empire of the other three, and
+                thus establish their domination on the land and water in the region. Each conspired against each other
+                leading to several conflicts and bloodshed. Dramatically, all the four royals have allegiance to The
+                Clown who guided the royal dynasties from during the turbulent times. Vowing to the promise made to the
+                Clown, the four Monarchs had refrained from indulging in a destructive war against others. <br /> <br />
+                Nevertheless, the Clown decided to reveal the secret to the Four Monarchs that was passed to him by his
+                ancestors to reveal it to the
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p class="gamble-explanation exp-left">
+                descendants of royalists under the right circumstances. On the far Islands of Dead Sea, there’s an
+                ancient Imperial Kingdom that remains in shackles. There’s a throne in the capital of that Imperial
+                Kingdom which possess supernatural powers, that it confers on its ascendants. The man who ascends it
+                becomes the most powerful Man - in the military, wealth- on this part of the world. Nobody could ever
+                defeat him and he attains immortality. The more battles he won, the more powerful he grows and more
+                worlds he conquers.<br /> <br />
+                <b><i>“Now The reason why I am revealing this to all of you is, the throne has been craving for a
+                    sovereign to mount it, and its cravings have become aggressive that it would destroy our entire
+                    world had its cravings are not satiated. The one who ascends it becomes the Imperial Monarch, rest
+                    would turn into vassals to the Imperial Monarch,”</i></b> said the Clown to the four Kings. This had
+                triggered a competition and rivalry among the Kings to ascend the throne.<br /> <br />
                 <b><i><u>to be continued..</u></i></b>
               </p>
-               </div>
             </div>
-         </div>
+          </div>
+        </div>
       </div>
 
       <div class="row">
         <div class="col-md-7">
-         
+
           <p class="gamble-explanation" style="margin-right: 75px;">
             <span class="gamble-text">The <b class="extra-bold">Art</b></span>
-            <br/>
-            <br/>
-          What would it look like if the four kings on the Deck of Cards spring up to life to compete with each other? It is this idea that animated in our thoughts to create this story and characters. Every character created in the story has a unique, unequalled independent self of their own.  The rationale for choosing a lion as a character is it symbolizes a King, renowned as the King of Forest with a territory of its own. <br/>
-          <br/>
+            <br />
+            <br />
+            What would it look like if the four kings on the Deck of Cards spring up to life to compete with each other?
+            It is this idea that animated in our thoughts to create this story and characters. Every character created
+            in the story has a unique, unequalled independent self of their own. The rationale for choosing a lion as a
+            character is it symbolizes a King, renowned as the King of Forest with a territory of its own. <br />
+            <br />
 
-          The sketching was imagined and brought to life from the square one of our own imagination, utmost care is taken in developing the sketches to suite necessities and descriptions of characters in the story. Conventionally, the symbols on the cards alphabets, numbers and pips on the cards are coloured in Black and Red. The blue colour is added because the story wheels around The Blue Throne, and the one who ascends it announces him as The Blue Monarch.
+            The sketching was imagined and brought to life from the square one of our own imagination, utmost care is
+            taken in developing the sketches to suite necessities and descriptions of characters in the story.
+            Conventionally, the symbols on the cards alphabets, numbers and pips on the cards are coloured in Black and
+            Red. The blue colour is added because the story wheels around The Blue Throne, and the one who ascends it
+            announces him as The Blue Monarch.
           </p>
         </div>
         <div class="col-md-5">
           <div class="row">
-            <div class="col-md-5" >
-              <img src="./mornarch_text.jpg" class="img-fluid img-art" style="margin-top: 150px;"/>
-             </div>
-             <div class="col-md-5">
-              <img src="./monarch_lion.jpg" class="img-fluid img-art" style="margin-top: 300px"/>
+            <div class="col-md-5">
+
+              <div class="slideshow-container"  style="margin-top: 150px;">
+
+                <div class="mySlides fade">
+                  <img src="./website-18.png" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="./website-19.png" style="width:100%">
+
+                </div>
+
+              </div>
             </div>
+            <div class="col-md-5">
+              <div class="slideshow-container" style="margin-top: 300px">
+
+                <div class="mySlidesSec fade">
+                  <img src="./website-20.png" style="width:100%">
+                </div>
+
+                <div class="mySlidesSec fade">
+                  <img src="./website-21.png" style="width:100%">
+                </div>
+              </div>
+            </div>
+
+
           </div>
-          
 
         </div>
+        <div class="footer">
+          <div class="row">
 
-      </div>
-      <div class="footer">
-        <div class="row">
-          <div class="col-md-5"></div>
-          <div class="col-md-4">
-            <div style="justify-content: center;padding: 40px;">
-  <!-- <a href="#"><img src="./facebook.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/></a> -->
-  <span> <a href="https://www.instagram.com/the_gamble_of_monarchs/"> <img src="./instagram.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/></a></span>
-           
-  <span><a href="https://twitter.com/ThegambleM?t=fmXtb1sQ0dQzdl6wbDeZVQ&s=08">  <img src="./twitter.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/></a></span> 
-     <!-- <img src="./youtube.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/> -->
+            <div class="social-icons">
+              <div style="justify-content: center;padding: 40px;">
+                <!-- <a href="#"><img src="./facebook.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/></a> -->
+                <span> <a href="https://www.instagram.com/the_gamble_of_monarchs/"> <img src="./instagram.png"
+                      class="img-fluid socialIcon" style="width: auto; height: 35px;" /></a></span>
+
+                <span><a href="https://twitter.com/ThegambleM?t=fmXtb1sQ0dQzdl6wbDeZVQ&s=08"> <img src="./twitter.png"
+                      class="img-fluid socialIcon" style="width: auto; height: 35px;" /></a></span>
+                <!-- <img src="./youtube.png" class="img-fluid socialIcon" style="width: auto; height: 35px;"/> -->
+              </div>
+            </div>
+
           </div>
-         </div>
-         <div class="col-md-3"></div>
-        </div>
-        <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
-            <p  style="margin-top: 50px;text-align: center;">
-              <span class="gamble-text">Contact</span>
-              <br/>
-             <span>thegambleofmonarch@gmail.com</span>
-            </p>
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <p style="margin-top: 50px;text-align: center;">
+                <span class="gamble-text">Contact</span>
+                <br />
+                <span>thegambleofmonarch@gmail.com</span>
+              </p>
+            </div>
+            <div class="col-md-3"></div>
           </div>
-          <div class="col-md-3"></div>
-        </div>
-        <div class="col-md-12">
-           <div class="col-md-6">
-            <!-- <p class="gamble-explanation " style="margin-top: 50px;">
+          <div class="col-md-12">
+            <div class="col-md-6">
+              <!-- <p class="gamble-explanation " style="margin-top: 50px;">
               <span class="gamble-text">Powered by</span>
               <br/>
              <img class="img-fluid" src="./algorand.png" style="margin-top: 5%;"/>
              <br/>
              <span></span>
             </p> -->
-           </div>
-           <!-- <div class="col-md-6">
+            </div>
+            <!-- <div class="col-md-6">
             <p class="gamble-explanation " style="margin-top: 50px; float:right;">
               <span class="gamble-text">Contact</span>
               <br/>
@@ -193,19 +279,20 @@
              <span class="give-away"></span>
             </p>
           </div> -->
-          <div class="copy-right-text">© Copyright 2022. All Rights Reserved.</div>
+            <div class="copy-right-text">© Copyright 2022. All Rights Reserved.</div>
           </div>
 
+        </div>
       </div>
-    </div>  
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./index.js"></script>
-  </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
 </html
